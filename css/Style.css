@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: verdana;
+    color: grey;
+}
+
+h1 {
+    font-size: 7em;
+    /*font-weight: bold;*/
+    font-family: oohbahn;
+}
+
+img {
+    float: left;
+    margin: 3em;
+}
+
+h2 {
+    font-family: oohbahn;
+    font-size: 4em;
+}
+
+p {}
+
+nav {
+    margin: 5em;
+}
+
+h3 {
+    font-family: karmatic;
+}
+
+#photo-droite {}
+
+.gap100 {
+    padding: 70px 0px;
+}
+
+.plop {
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
+@keyframes clignoter {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*------------------- FONTS ------------------------ */
+
+@font-face {
+    font-family: 'oohbahn';
+    src: url('../fonts/oohbahn-regular-webfont.woff2') format('woff2'), url('fonts/oohbahn/oohbahn-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pressstart';
+    src: url('../fonts/pressstart2p-regular-webfont.woff2') format('woff2'), url('fonts/pressstart/pressstart2p-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karmatic';
+    src: url('../fonts/ka1-webfont.woff2') format('woff2'), url('../fonts/ka1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
